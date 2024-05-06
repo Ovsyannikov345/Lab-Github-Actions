@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.9641" branch-rate="0.875" version="1.9" timestamp="1714328457" lines-covered="215" lines-valid="223" branches-covered="14" branches-valid="16">
+  <sources>
+    <source>C:\Users\Ilya\</source>
+  </sources>
+  <packages>
+    <package name="DiscountSystem" line-rate="0.8443999999999999" branch-rate="0.875" complexity="22">
+      <classes>
+        <class name="DiscountSystem.Discount" filename="Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\Discount.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(System.Double,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="36" branch="False" />
+                <line number="10" hits="36" branch="False" />
+                <line number="11" hits="36" branch="False" />
+                <line number="12" hits="36" branch="False" />
+                <line number="13" hits="36" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="36" branch="False" />
+            <line number="10" hits="36" branch="False" />
+            <line number="11" hits="36" branch="False" />
+            <line number="12" hits="36" branch="False" />
+            <line number="13" hits="36" branch="False" />
+          </lines>
+        </class>
+        <class name="DiscountSystem.DiscountCalculator" filename="Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\DiscountCalculator.cs" line-rate="0.8571" branch-rate="0.875" complexity="16">
+          <methods>
+            <method name="CalculateDiscount" signature="(DiscountSystem.Order)" line-rate="0.8571" branch-rate="0.875" complexity="16">
+              <lines>
+                <line number="8" hits="36" branch="False" />
+                <line number="9" hits="36" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="12" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="14" hits="36" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="42" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="19" hits="36" branch="False" />
+                <line number="21" hits="36" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="82" type="jump" coverage="100%" />
+                    <condition number="88" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="22" hits="36" branch="False" />
+                <line number="23" hits="12" branch="False" />
+                <line number="24" hits="12" branch="False" />
+                <line number="25" hits="12" branch="False" />
+                <line number="26" hits="36" branch="False" />
+                <line number="28" hits="36" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="139" type="jump" coverage="100%" />
+                    <condition number="148" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="29" hits="36" branch="False" />
+                <line number="30" hits="12" branch="False" />
+                <line number="31" hits="12" branch="False" />
+                <line number="32" hits="12" branch="False" />
+                <line number="33" hits="36" branch="False" />
+                <line number="35" hits="36" branch="False" />
+                <line number="37" hits="36" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="192" type="jump" coverage="100%" />
+                    <condition number="198" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="36" branch="False" />
+                <line number="39" hits="4" branch="False" />
+                <line number="40" hits="8" branch="False" />
+                <line number="41" hits="24" branch="False" />
+                <line number="42" hits="36" branch="False" />
+                <line number="43" hits="36" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="36" branch="False" />
+            <line number="9" hits="36" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="12" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="14" hits="36" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="42" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="19" hits="36" branch="False" />
+            <line number="21" hits="36" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="82" type="jump" coverage="100%" />
+                <condition number="88" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="22" hits="36" branch="False" />
+            <line number="23" hits="12" branch="False" />
+            <line number="24" hits="12" branch="False" />
+            <line number="25" hits="12" branch="False" />
+            <line number="26" hits="36" branch="False" />
+            <line number="28" hits="36" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="139" type="jump" coverage="100%" />
+                <condition number="148" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="29" hits="36" branch="False" />
+            <line number="30" hits="12" branch="False" />
+            <line number="31" hits="12" branch="False" />
+            <line number="32" hits="12" branch="False" />
+            <line number="33" hits="36" branch="False" />
+            <line number="35" hits="36" branch="False" />
+            <line number="37" hits="36" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="192" type="jump" coverage="100%" />
+                <condition number="198" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="38" hits="36" branch="False" />
+            <line number="39" hits="4" branch="False" />
+            <line number="40" hits="8" branch="False" />
+            <line number="41" hits="24" branch="False" />
+            <line number="42" hits="36" branch="False" />
+            <line number="43" hits="36" branch="False" />
+          </lines>
+        </class>
+        <class name="DiscountSystem.Order" filename="Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\Order.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_ClientType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="72" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ItemsCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="108" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TotalPrice" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="108" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(DiscountSystem.ClientType,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="36" branch="False" />
+                <line number="12" hits="36" branch="False" />
+                <line number="13" hits="36" branch="False" />
+                <line number="14" hits="36" branch="False" />
+                <line number="15" hits="36" branch="False" />
+                <line number="16" hits="36" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="72" branch="False" />
+            <line number="7" hits="108" branch="False" />
+            <line number="9" hits="108" branch="False" />
+            <line number="11" hits="36" branch="False" />
+            <line number="12" hits="36" branch="False" />
+            <line number="13" hits="36" branch="False" />
+            <line number="14" hits="36" branch="False" />
+            <line number="15" hits="36" branch="False" />
+            <line number="16" hits="36" branch="False" />
+          </lines>
+        </class>
+        <class name="DiscountSystem.Program" filename="Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="0" branch="False" />
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DiscountSystem.Test" line-rate="0.9943000000000001" branch-rate="1" complexity="22">
+      <classes>
+        <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\17.5.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="DiscountSystem.Test.DiscountCalculatorDataDrivenTests" filename="Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem.Test\DiscountCalculatorDataDrivenTests.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="18" branch="False" />
+                <line number="11" hits="18" branch="False" />
+                <line number="12" hits="18" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_ReturnsValidDiscountAndPoints" signature="(DiscountSystem.ClientType,System.Int32,System.Int32,System.Double,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="18" branch="False" />
+                <line number="37" hits="18" branch="False" />
+                <line number="40" hits="18" branch="False" />
+                <line number="43" hits="18" branch="False" />
+                <line number="44" hits="18" branch="False" />
+                <line number="45" hits="18" branch="False" />
+                <line number="46" hits="18" branch="False" />
+                <line number="47" hits="36" branch="False" />
+                <line number="48" hits="18" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="18" branch="False" />
+            <line number="11" hits="18" branch="False" />
+            <line number="12" hits="18" branch="False" />
+            <line number="35" hits="18" branch="False" />
+            <line number="37" hits="18" branch="False" />
+            <line number="40" hits="18" branch="False" />
+            <line number="43" hits="18" branch="False" />
+            <line number="44" hits="18" branch="False" />
+            <line number="45" hits="18" branch="False" />
+            <line number="46" hits="18" branch="False" />
+            <line number="47" hits="36" branch="False" />
+            <line number="48" hits="18" branch="False" />
+          </lines>
+        </class>
+        <class name="DiscountSystem.Test.DiscountCalculatorTests" filename="Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem.Test\DiscountCalculatorTests.cs" line-rate="1" branch-rate="1" complexity="19">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="18" branch="False" />
+                <line number="11" hits="18" branch="False" />
+                <line number="12" hits="18" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_9Items9000PriceByPrivateClient_ReturnsSmallDiscountWithPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="2" branch="False" />
+                <line number="29" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_9Items19000PriceByPrivateClient_ReturnsMediumDiscountWithPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="2" branch="False" />
+                <line number="46" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_9Items29000PriceByPrivateClient_ReturnsLargeDiscountWithPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="50" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="62" hits="2" branch="False" />
+                <line number="63" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_19Items9000PriceByPrivateClient_ReturnsMediumDiscountWithPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="67" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
+                <line number="77" hits="1" branch="False" />
+                <line number="78" hits="1" branch="False" />
+                <line number="79" hits="2" branch="False" />
+                <line number="80" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_19Items19000PriceByPrivateClient_ReturnsLargeDiscountWithPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="84" hits="1" branch="False" />
+                <line number="86" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="92" hits="1" branch="False" />
+                <line number="93" hits="1" branch="False" />
+                <line number="94" hits="1" branch="False" />
+                <line number="95" hits="1" branch="False" />
+                <line number="96" hits="2" branch="False" />
+                <line number="97" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_19Items29000PriceByPrivateClient_ReturnsLargeDiscountWithPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="101" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+                <line number="106" hits="1" branch="False" />
+                <line number="109" hits="1" branch="False" />
+                <line number="110" hits="1" branch="False" />
+                <line number="111" hits="1" branch="False" />
+                <line number="112" hits="1" branch="False" />
+                <line number="113" hits="2" branch="False" />
+                <line number="114" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_29Items9000PriceByPrivateClient_ReturnsLargeDiscountWithPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="118" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="123" hits="1" branch="False" />
+                <line number="126" hits="1" branch="False" />
+                <line number="127" hits="1" branch="False" />
+                <line number="128" hits="1" branch="False" />
+                <line number="129" hits="1" branch="False" />
+                <line number="130" hits="2" branch="False" />
+                <line number="131" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_29Items19000PriceByPrivateClient_ReturnsLargeDiscountWithPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="135" hits="1" branch="False" />
+                <line number="137" hits="1" branch="False" />
+                <line number="140" hits="1" branch="False" />
+                <line number="143" hits="1" branch="False" />
+                <line number="144" hits="1" branch="False" />
+                <line number="145" hits="1" branch="False" />
+                <line number="146" hits="1" branch="False" />
+                <line number="147" hits="2" branch="False" />
+                <line number="148" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_29Items29000PriceByPrivateClient_ReturnsLargeDiscountWithPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="152" hits="1" branch="False" />
+                <line number="154" hits="1" branch="False" />
+                <line number="157" hits="1" branch="False" />
+                <line number="160" hits="1" branch="False" />
+                <line number="161" hits="1" branch="False" />
+                <line number="162" hits="1" branch="False" />
+                <line number="163" hits="1" branch="False" />
+                <line number="164" hits="2" branch="False" />
+                <line number="165" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_9Items9000PriceByCorporateClient_ReturnsSmallDiscountWithoutPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="169" hits="1" branch="False" />
+                <line number="171" hits="1" branch="False" />
+                <line number="174" hits="1" branch="False" />
+                <line number="177" hits="1" branch="False" />
+                <line number="178" hits="1" branch="False" />
+                <line number="179" hits="1" branch="False" />
+                <line number="180" hits="1" branch="False" />
+                <line number="181" hits="2" branch="False" />
+                <line number="182" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_9Items19000PriceByCorporateClient_ReturnsMediumDiscountWithoutPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="186" hits="1" branch="False" />
+                <line number="188" hits="1" branch="False" />
+                <line number="191" hits="1" branch="False" />
+                <line number="194" hits="1" branch="False" />
+                <line number="195" hits="1" branch="False" />
+                <line number="196" hits="1" branch="False" />
+                <line number="197" hits="1" branch="False" />
+                <line number="198" hits="2" branch="False" />
+                <line number="199" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_9Items29000PriceByCorporateClient_ReturnsLargeDiscountWithoutPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="203" hits="1" branch="False" />
+                <line number="205" hits="1" branch="False" />
+                <line number="208" hits="1" branch="False" />
+                <line number="211" hits="1" branch="False" />
+                <line number="212" hits="1" branch="False" />
+                <line number="213" hits="1" branch="False" />
+                <line number="214" hits="1" branch="False" />
+                <line number="215" hits="2" branch="False" />
+                <line number="216" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_19Items9000PriceByCorporateClient_ReturnsMediumDiscountWithoutPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="220" hits="1" branch="False" />
+                <line number="222" hits="1" branch="False" />
+                <line number="225" hits="1" branch="False" />
+                <line number="228" hits="1" branch="False" />
+                <line number="229" hits="1" branch="False" />
+                <line number="230" hits="1" branch="False" />
+                <line number="231" hits="1" branch="False" />
+                <line number="232" hits="2" branch="False" />
+                <line number="233" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_19Items19000PriceByCorporateClient_ReturnsLargeDiscountWithoutPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="237" hits="1" branch="False" />
+                <line number="239" hits="1" branch="False" />
+                <line number="242" hits="1" branch="False" />
+                <line number="245" hits="1" branch="False" />
+                <line number="246" hits="1" branch="False" />
+                <line number="247" hits="1" branch="False" />
+                <line number="248" hits="1" branch="False" />
+                <line number="249" hits="2" branch="False" />
+                <line number="250" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_19Items29000PriceByCorporateClient_ReturnsLargeDiscountWithoutPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="254" hits="1" branch="False" />
+                <line number="256" hits="1" branch="False" />
+                <line number="259" hits="1" branch="False" />
+                <line number="262" hits="1" branch="False" />
+                <line number="263" hits="1" branch="False" />
+                <line number="264" hits="1" branch="False" />
+                <line number="265" hits="1" branch="False" />
+                <line number="266" hits="2" branch="False" />
+                <line number="267" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_29Items9000PriceByCorporateClient_ReturnsLargeDiscountWithoutPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="271" hits="1" branch="False" />
+                <line number="273" hits="1" branch="False" />
+                <line number="276" hits="1" branch="False" />
+                <line number="279" hits="1" branch="False" />
+                <line number="280" hits="1" branch="False" />
+                <line number="281" hits="1" branch="False" />
+                <line number="282" hits="1" branch="False" />
+                <line number="283" hits="2" branch="False" />
+                <line number="284" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_29Items19000PriceByCorporateClient_ReturnsLargeDiscountWithoutPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="288" hits="1" branch="False" />
+                <line number="290" hits="1" branch="False" />
+                <line number="293" hits="1" branch="False" />
+                <line number="296" hits="1" branch="False" />
+                <line number="297" hits="1" branch="False" />
+                <line number="298" hits="1" branch="False" />
+                <line number="299" hits="1" branch="False" />
+                <line number="300" hits="2" branch="False" />
+                <line number="301" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateDiscount_29Items29000PriceByCorporateClient_ReturnsLargeDiscountWithoutPoints" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="305" hits="1" branch="False" />
+                <line number="307" hits="1" branch="False" />
+                <line number="310" hits="1" branch="False" />
+                <line number="313" hits="1" branch="False" />
+                <line number="314" hits="1" branch="False" />
+                <line number="315" hits="1" branch="False" />
+                <line number="316" hits="1" branch="False" />
+                <line number="317" hits="2" branch="False" />
+                <line number="318" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="18" branch="False" />
+            <line number="11" hits="18" branch="False" />
+            <line number="12" hits="18" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="2" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="2" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="62" hits="2" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="77" hits="1" branch="False" />
+            <line number="78" hits="1" branch="False" />
+            <line number="79" hits="2" branch="False" />
+            <line number="80" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="86" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="92" hits="1" branch="False" />
+            <line number="93" hits="1" branch="False" />
+            <line number="94" hits="1" branch="False" />
+            <line number="95" hits="1" branch="False" />
+            <line number="96" hits="2" branch="False" />
+            <line number="97" hits="1" branch="False" />
+            <line number="101" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+            <line number="106" hits="1" branch="False" />
+            <line number="109" hits="1" branch="False" />
+            <line number="110" hits="1" branch="False" />
+            <line number="111" hits="1" branch="False" />
+            <line number="112" hits="1" branch="False" />
+            <line number="113" hits="2" branch="False" />
+            <line number="114" hits="1" branch="False" />
+            <line number="118" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="123" hits="1" branch="False" />
+            <line number="126" hits="1" branch="False" />
+            <line number="127" hits="1" branch="False" />
+            <line number="128" hits="1" branch="False" />
+            <line number="129" hits="1" branch="False" />
+            <line number="130" hits="2" branch="False" />
+            <line number="131" hits="1" branch="False" />
+            <line number="135" hits="1" branch="False" />
+            <line number="137" hits="1" branch="False" />
+            <line number="140" hits="1" branch="False" />
+            <line number="143" hits="1" branch="False" />
+            <line number="144" hits="1" branch="False" />
+            <line number="145" hits="1" branch="False" />
+            <line number="146" hits="1" branch="False" />
+            <line number="147" hits="2" branch="False" />
+            <line number="148" hits="1" branch="False" />
+            <line number="152" hits="1" branch="False" />
+            <line number="154" hits="1" branch="False" />
+            <line number="157" hits="1" branch="False" />
+            <line number="160" hits="1" branch="False" />
+            <line number="161" hits="1" branch="False" />
+            <line number="162" hits="1" branch="False" />
+            <line number="163" hits="1" branch="False" />
+            <line number="164" hits="2" branch="False" />
+            <line number="165" hits="1" branch="False" />
+            <line number="169" hits="1" branch="False" />
+            <line number="171" hits="1" branch="False" />
+            <line number="174" hits="1" branch="False" />
+            <line number="177" hits="1" branch="False" />
+            <line number="178" hits="1" branch="False" />
+            <line number="179" hits="1" branch="False" />
+            <line number="180" hits="1" branch="False" />
+            <line number="181" hits="2" branch="False" />
+            <line number="182" hits="1" branch="False" />
+            <line number="186" hits="1" branch="False" />
+            <line number="188" hits="1" branch="False" />
+            <line number="191" hits="1" branch="False" />
+            <line number="194" hits="1" branch="False" />
+            <line number="195" hits="1" branch="False" />
+            <line number="196" hits="1" branch="False" />
+            <line number="197" hits="1" branch="False" />
+            <line number="198" hits="2" branch="False" />
+            <line number="199" hits="1" branch="False" />
+            <line number="203" hits="1" branch="False" />
+            <line number="205" hits="1" branch="False" />
+            <line number="208" hits="1" branch="False" />
+            <line number="211" hits="1" branch="False" />
+            <line number="212" hits="1" branch="False" />
+            <line number="213" hits="1" branch="False" />
+            <line number="214" hits="1" branch="False" />
+            <line number="215" hits="2" branch="False" />
+            <line number="216" hits="1" branch="False" />
+            <line number="220" hits="1" branch="False" />
+            <line number="222" hits="1" branch="False" />
+            <line number="225" hits="1" branch="False" />
+            <line number="228" hits="1" branch="False" />
+            <line number="229" hits="1" branch="False" />
+            <line number="230" hits="1" branch="False" />
+            <line number="231" hits="1" branch="False" />
+            <line number="232" hits="2" branch="False" />
+            <line number="233" hits="1" branch="False" />
+            <line number="237" hits="1" branch="False" />
+            <line number="239" hits="1" branch="False" />
+            <line number="242" hits="1" branch="False" />
+            <line number="245" hits="1" branch="False" />
+            <line number="246" hits="1" branch="False" />
+            <line number="247" hits="1" branch="False" />
+            <line number="248" hits="1" branch="False" />
+            <line number="249" hits="2" branch="False" />
+            <line number="250" hits="1" branch="False" />
+            <line number="254" hits="1" branch="False" />
+            <line number="256" hits="1" branch="False" />
+            <line number="259" hits="1" branch="False" />
+            <line number="262" hits="1" branch="False" />
+            <line number="263" hits="1" branch="False" />
+            <line number="264" hits="1" branch="False" />
+            <line number="265" hits="1" branch="False" />
+            <line number="266" hits="2" branch="False" />
+            <line number="267" hits="1" branch="False" />
+            <line number="271" hits="1" branch="False" />
+            <line number="273" hits="1" branch="False" />
+            <line number="276" hits="1" branch="False" />
+            <line number="279" hits="1" branch="False" />
+            <line number="280" hits="1" branch="False" />
+            <line number="281" hits="1" branch="False" />
+            <line number="282" hits="1" branch="False" />
+            <line number="283" hits="2" branch="False" />
+            <line number="284" hits="1" branch="False" />
+            <line number="288" hits="1" branch="False" />
+            <line number="290" hits="1" branch="False" />
+            <line number="293" hits="1" branch="False" />
+            <line number="296" hits="1" branch="False" />
+            <line number="297" hits="1" branch="False" />
+            <line number="298" hits="1" branch="False" />
+            <line number="299" hits="1" branch="False" />
+            <line number="300" hits="2" branch="False" />
+            <line number="301" hits="1" branch="False" />
+            <line number="305" hits="1" branch="False" />
+            <line number="307" hits="1" branch="False" />
+            <line number="310" hits="1" branch="False" />
+            <line number="313" hits="1" branch="False" />
+            <line number="314" hits="1" branch="False" />
+            <line number="315" hits="1" branch="False" />
+            <line number="316" hits="1" branch="False" />
+            <line number="317" hits="2" branch="False" />
+            <line number="318" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

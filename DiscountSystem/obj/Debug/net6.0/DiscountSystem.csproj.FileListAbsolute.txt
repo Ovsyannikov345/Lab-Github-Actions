@@ -1,0 +1,14 @@
+C:\Users\Ilya\Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\bin\Debug\net6.0\DiscountSystem.exe
+C:\Users\Ilya\Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\bin\Debug\net6.0\DiscountSystem.deps.json
+C:\Users\Ilya\Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\bin\Debug\net6.0\DiscountSystem.runtimeconfig.json
+C:\Users\Ilya\Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\bin\Debug\net6.0\DiscountSystem.dll
+C:\Users\Ilya\Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\bin\Debug\net6.0\DiscountSystem.pdb
+C:\Users\Ilya\Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\obj\Debug\net6.0\DiscountSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ilya\Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\obj\Debug\net6.0\DiscountSystem.AssemblyInfoInputs.cache
+C:\Users\Ilya\Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\obj\Debug\net6.0\DiscountSystem.AssemblyInfo.cs
+C:\Users\Ilya\Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\obj\Debug\net6.0\DiscountSystem.csproj.CoreCompileInputs.cache
+C:\Users\Ilya\Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\obj\Debug\net6.0\DiscountSystem.dll
+C:\Users\Ilya\Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\obj\Debug\net6.0\refint\DiscountSystem.dll
+C:\Users\Ilya\Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\obj\Debug\net6.0\DiscountSystem.pdb
+C:\Users\Ilya\Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\obj\Debug\net6.0\DiscountSystem.genruntimeconfig.cache
+C:\Users\Ilya\Dropbox\Тестирование\Lab4\DiscountSystem\DiscountSystem\obj\Debug\net6.0\ref\DiscountSystem.dll
